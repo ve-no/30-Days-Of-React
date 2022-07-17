@@ -151,4 +151,5 @@ let j = Math.trunc(itCompanies.length / 2)
 
 // 23. Remove all IT companies
 itCompanies.splice(0);
+
 console.log(itCompanies);
