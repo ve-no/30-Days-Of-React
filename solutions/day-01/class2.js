@@ -65,4 +65,4 @@ class Statistics {
 } 
  let statistical = new Statistics();
 
- console.log(statistical.count());
+//  console.log(statistical.count());
