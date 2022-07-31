@@ -1,0 +1,18 @@
+div {
+ display: flex;
+ flex-wrap: wrap;
+}
+h1 {
+  width: 10%;
+  justify-content: stretch;
+  padding: 2rem 5.5rem;
+  color: aliceblue;
+  text-align: center;
+  margin: 1px;
+  height: 6rem;
+  opacity: 0.6;
+  user-select: all;
+}
+h1:hover{
+  opacity: 1;
+}
