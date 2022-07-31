@@ -14,7 +14,7 @@ const tenHighestPopulation = [
   ]
   let country = [] , population = [], calc = [];
 
-  for (let i = 0; i < tenHighestPopulation.length; i++) {
+  for(let i = 0; i < tenHighestPopulation.length; i++) {
 	country.push(tenHighestPopulation[i].country);
     population.push(tenHighestPopulation[i].population);
 	calc.push((tenHighestPopulation[i].population / 10000000).toString() + 'px');
