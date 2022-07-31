@@ -6,7 +6,6 @@ body{
 	font-size: 4rem;
 	font-weight: 400;
 	text-align: center;
-
 }
 .NumberGenerator h2, .HexaColor h2 , .WorldPopulation h2{
 	font-size: 2rem;
@@ -41,7 +40,6 @@ body{
 	font-size: 1rem;
 
 }
-
 .graph .gra{
 	height: 2.2rem;
 	background-color: #FFA500;
