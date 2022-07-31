@@ -1,0 +1,51 @@
+body{
+	display: flex;
+	justify-content: center;
+}
+.NumberGenerator h1 ,.HexaColor > h1 , .WorldPopulation > h1{
+	font-size: 4rem;
+	font-weight: 400;
+	text-align: center;
+
+}
+.NumberGenerator h2, .HexaColor h2 , .WorldPopulation h2{
+	font-size: 2rem;
+	text-align: center;
+	font-weight: 100;
+}
+.Number {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 65rem;
+}
+.Number h1 {
+	display: flex;
+	margin: 1px;
+	color:aliceblue;
+	width: 8rem;
+	height: 8rem;
+	justify-content: center;
+	align-items: center;
+	font-weight: 100;
+	user-select: all;
+}
+.WorldPopulation p {
+	margin: 0;
+	text-align: center;
+}
+.graph {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 900;
+	font-size: 1rem;
+
+}
+
+.graph .gra{
+	height: 2.2rem;
+	background-color: #FFA500;
+	border-radius: 5px;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
