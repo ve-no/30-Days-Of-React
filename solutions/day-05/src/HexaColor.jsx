@@ -5,7 +5,7 @@ const HexaColor = () => {
 	return <div className="HexaColor">
 				<h1>30 Days Of React</h1>
 				<h2>Hexadecimal Generator</h2>
-				<div className = "Number">{heading}</div>
+				<div className =  "Number">{heading}</div>
 			</div>;
 }
 export default HexaColor;
