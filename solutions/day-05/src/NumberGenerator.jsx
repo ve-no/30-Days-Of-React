@@ -8,7 +8,8 @@ const NumberGenerator = () =>{
 	function isPrime(num) {
 		let i = 1;
 		while (++i < num)
-			if (num % i === 0) return false;
+			if (num % i === 0)
+				return false;
 		return num > 1;
 	}
 
