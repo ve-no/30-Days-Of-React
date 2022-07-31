@@ -24,7 +24,6 @@ const WorldPopulation = () => {
 	const pop = population.map(p => <h1>{p}</h1>)
 	const calcGraph = calc.map(c =>
 						<h1 style={{width: c}} className="gra"></h1>)
-
 	return <div className="WorldPopulation">
 				<h1>30 Days Of React</h1>
 				<h2>World Population</h2>
