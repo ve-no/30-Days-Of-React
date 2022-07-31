@@ -19,6 +19,15 @@ const tenHighestPopulation = [
     population.push(tenHighestPopulation[i].population);
 	calc.push((tenHighestPopulation[i].population / 10000000).toString() + 'px');
 }
+
+
+function numberWithCommas(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
+population= population.map( (p) =>  numberWithCommas(p))
+
+
 const WorldPopulation = () => {
 	const countries =  country.map(c => <h1>{c}</h1>)
 	const pop = population.map(p => <h1>{p}</h1>)
@@ -35,5 +44,4 @@ const WorldPopulation = () => {
 				</div>
 			</div>;
 }
-
 export default WorldPopulation;
