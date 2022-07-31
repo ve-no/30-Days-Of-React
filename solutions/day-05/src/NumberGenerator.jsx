@@ -14,7 +14,8 @@ const NumberGenerator = () =>{
 	}
 
 	const checkColor = (num) => ((isPrime(num) ? '#FD5E53' : (num % 2 === 0) ? '#21BF73' : '#FDDB3A'));
-	const randomGen = hexa.map((h) =>  <h1  style={{backgroundColor: checkColor(h)}}>{h}</h1>)
+	const randomGen = hexa.map((h) =>
+					 <h1  style={{backgroundColor: checkColor(h)}}>{h}</h1>)
 	return (
 		<div className="NumberGenerator">
 			<h1>30 Days Of React</h1>
