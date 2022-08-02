@@ -21,10 +21,9 @@ const tenHighestPopulation = [
 }
 
 
-const  numberWithCommas = (x) =>x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+const  numberWithCommas = (x) =>x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ", ");
 
 population= population.map( (p) =>  numberWithCommas(p))
-
 
 const WorldPopulation = () => {
 	const countries =  country.map(c => <h1>{c}</h1>)
