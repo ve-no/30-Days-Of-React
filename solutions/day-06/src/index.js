@@ -245,6 +245,7 @@ class App extends React.Component {
         <Main
           user={user}
           techs={techs}
+
           handleTime={this.handleTime}
           greetPeople={this.greetPeople}
           changeBackground={this.changeBackground}
